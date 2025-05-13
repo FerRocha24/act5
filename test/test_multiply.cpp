@@ -12,5 +12,5 @@ TEST(MultiTest, HandlesZeroInput)
 {
     int multi = multiply(5, 0);
 
-    EXPECT_EQ(result, 0);
+    EXPECT_EQ(multi, 0);
 }
